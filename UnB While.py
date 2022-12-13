@@ -30,4 +30,24 @@ if maior_valor == 0:
     print('Não tem')
 else:
     print(f'{maior_valor:.2f}')
+    
+    
+    
+#UnB Menor salario(While)
+
+menor_valor = 0 
+menor_nome = ''
+
+while True:
+    nome, num = input().split(',')
+    if nome == 'Fim':
+        break 
+    num = float(num)
+    if num < menor_valor or menor_valor == 0:
+        menor_nome = nome
+        menor_valor = num
+if menor_valor == 0:
+    print('Não tem')
+else:
+    print(menor_nome)
 
