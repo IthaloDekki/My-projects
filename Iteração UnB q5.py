@@ -14,7 +14,7 @@ while N != 0:
     if num > maior_salario:
         maior_salario = num
         maior_nome = nome
-    elif num < menor_salario or menor_salario == 0:
+    if num < menor_salario or menor_salario == 0:
         menor_salario = num
         menor_nome = nome
 if contador == 0:
