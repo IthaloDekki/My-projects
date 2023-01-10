@@ -1,3 +1,5 @@
+#Recebe string
+#printa elementos nos índices ímpares, exceto espaços
 string = input()
 count = 0 
 space = len(string)
