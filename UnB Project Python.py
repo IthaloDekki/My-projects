@@ -49,7 +49,11 @@ def IEC60062(resistencia):
 
     return lista
 print(IEC60062('1- 10'))
-
+print(IEC60062('13m 0.02'))
+print(IEC60062('2.70M 0.01'))
+print(IEC60062('2.26K 0.05'))
+print(IEC60062('2.7M 1'))
+print(IEC60062('2.2K 2'))
 
 
     
