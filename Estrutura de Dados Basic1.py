@@ -3,8 +3,6 @@ qtd_buracos = int(input())
 coor_coelho = list(map(float, input().split()))
 coor_raposa = list(map(float, input().split()))
 escape = False
-max_distancia = []
-
 
 def distancia1(x1, y1, x2, y2):
     a = x2 - x1
